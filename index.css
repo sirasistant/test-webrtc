@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color:#333;
+    height:100%;
+}
+
+#localVideo{
+    width: 200px;
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    border:5px solid #4285F4;
+    border-radius: 2px;
+    z-index:1000;
+}
+
+#remoteVideo{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.videos{
+    position: relative;
+    height: 100%;
+    
+}
+.row{
+     height: 100%;
+}
+
+.container{
+    height: 100%;
+}
+
+.chat-container{
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+}
+
+#chat{
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    height: 0px;
+    margin: 20px 0px;
+    overflow: scroll;
+}
+
+textarea{
+    margin-bottom:20px;
+}
+
+button{
+    margin-bottom:20px;
+}
